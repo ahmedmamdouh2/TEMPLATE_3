@@ -1273,4 +1273,5 @@ header nav .form i {
 .end:hover {
   border-radius: 14px;
   background-color: rgb(139, 103, 103);
+  padding: 15px;
 }
