@@ -490,6 +490,12 @@ header nav .form i {
   padding: 10px 22px;
 }
 
+@media (max-width: 767px) {
+  .Portfolio .shuffle li {
+    width: calc(100% + 50px);
+  }
+}
+
 .Portfolio .shuffle li.active {
   background-color: var(--min-color);
   color: white;
@@ -865,6 +871,12 @@ header nav .form i {
   position: relative;
   text-align: center;
   color: white;
+}
+
+@media (max-width: 767px) {
+  .quote {
+    width: calc(100% + 50px);
+  }
 }
 
 .quote::before {
@@ -1274,4 +1286,17 @@ header nav .form i {
   border-radius: 14px;
   background-color: rgb(139, 103, 103);
   padding: 15px;
+}
+
+.box-1 {
+  margin: 20px auto;
+}
+.box-2 {
+  width: 331px;
+}
+
+@media (max-width: 768px) {
+  .box-2 {
+    width: 331px;
+  }
 }
